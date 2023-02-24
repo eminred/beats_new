@@ -1,0 +1,140 @@
+$z-fixed-menu: 100;
+
+.fixed-menu{
+  position: fixed;
+  top: 15%;
+  right: 2%;
+  z-index: $z-fixed-menu;
+
+  &--white{
+    color: #fff;
+  }
+}
+
+
+
+.fixed-menu__item {
+  margin-bottom: rem(5px);
+
+
+ &:hover{
+    .fixed-menu__link{
+      border-color: #E01F3D;
+      &:before{
+        background: #E01F3D;
+        opacity: 1;
+      }
+
+      
+    }
+    /*.fixed-menu__link--white{
+      border-color: white;
+      &:before{
+        background: white;
+        opacity: 1;
+      }
+    }*/
+  }
+}
+
+.fixed-menu__link{
+  width: rem(16px);
+  height: rem(16px);
+  border-radius: 50%;
+  border: rem(1px) solid transparent;
+  display: block; 
+  position: relative;
+
+  &:before{
+    content: "";
+    display: block;
+    width: rem(6px);
+    height: rem(6px);
+    border-radius: 50%;
+    background: #292929;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*&.active{
+  border-color: #E01F3D;
+  &:before{
+    background: #E01F3D;
+    opacity: 1;
+  }}*/
+}
+
+/*.fixed-menu--white .fixed-menu__item{
+.fixed-menu__link {
+
+  &:before{
+    background: white;
+  }}}*/
+
+  /*&.active{
+    border-color: white;
+    &:before{
+      background: white;
+      opacity: 1;
+  }
+}*/
+//}
+
+/*&.active{
+  .fixed-menu__link{
+  border-color: white;
+  &:before{
+    background: white;
+    opacity: 1;
+}
+}}}*/
+//}
+
+.fixed-menu__item--active{
+  .fixed-menu__link{
+    border-color: #E01F3D;
+    &:before{
+      background: #E01F3D;
+      opacity: 1;
+    }
+}}
+
+/*.fixed-menu__link--white{
+
+  border-color: white;
+  &:before{
+    background: white;
+    opacity: 1;
+
+}}*/
+
+.fixed-menu--white .fixed-menu__item{
+  .fixed-menu__link {
+
+    &:before{
+      background: white;
+    }}
+
+
+  &--active{
+  .fixed-menu__link{
+    border-color: white;
+    &:before{
+      background: white;
+      opacity: 1;}
+
+}}
+
+&:hover{
+  .fixed-menu__link{
+  border-color: white;
+  &:before{
+    background: white;
+    opacity: 1;}
+}}
+
+
+}

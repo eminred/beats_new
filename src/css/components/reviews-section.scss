@@ -1,0 +1,13 @@
+.reviews-section{
+  position: relative;
+  &:before{
+    content: url("../img/circle.svg");
+    position: absolute;
+    bottom: rem(-25px);
+    left: 25%;
+
+    @include tablets {
+      left: 5%;
+    }
+  }
+}
