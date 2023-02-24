@@ -35,14 +35,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eminred/beats-project.git"
+    "url": "git+https://github.com/eminred/beats_new.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eminred/beats-project/issues"
+    "url": "https://github.com/eminred/beats_new/issues"
   },
-  "homepage": "https://github.com/eminred/beats-project#readme",
+  "homepage": "https://github.com/eminred/beats_new#readme",
+  "directories": {
+    "doc": "docs"
+  },
   "description": ""
 }
